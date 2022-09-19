@@ -42,8 +42,8 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: _isSignedIn ? const HomeScreen() : const LoginScreen(),
-      //HomeScreen(),
+      home: //_isSignedIn ? const HomeScreen() : const LoginScreen(),
+      HomeScreen(),
 
 
 
